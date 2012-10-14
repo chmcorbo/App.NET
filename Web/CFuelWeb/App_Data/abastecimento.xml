@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abastecimentos>
+  <abastecimento>
+    <id>2010032821</id>
+    <data_abastec>06/03/2010 00:00:00</data_abastec>
+    <hora_abastec>28/03/2010 02:30:00</hora_abastec>
+    <id_tipo_combustivel>1</id_tipo_combustivel>
+    <km>470</km>
+    <litragem>39</litragem>
+    <km_litro>12,0512820512821</km_litro>
+    <valor_unit>2,45</valor_unit>
+    <valor_total>95,55</valor_total>
+    <id_posto>1</id_posto>
+    <observacao>teste 10</observacao>
+  </abastecimento>
+  <abastecimento>
+    <id>2010032823</id>
+    <data_abastec>10/03/2010 00:00:00</data_abastec>
+    <hora_abastec>28/03/2010 01:30:00</hora_abastec>
+    <id_tipo_combustivel>1</id_tipo_combustivel>
+    <km>430</km>
+    <litragem>38</litragem>
+    <km_litro>11,3157894736842</km_litro>
+    <valor_unit>2,43</valor_unit>
+    <valor_total>92,34</valor_total>
+    <id_posto>1</id_posto>
+    <observacao>teste 20</observacao>
+  </abastecimento>
+</abastecimentos>

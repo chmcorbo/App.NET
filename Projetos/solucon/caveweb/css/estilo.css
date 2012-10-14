@@ -1,0 +1,193 @@
+/*@charset "utf-8"; */
+/* CSS Document */
+body{background-color:#99bed6;font-family:Arial, Helvetica, sans-serif;font-size:12px;}
+
+.alerta_max{font-family:Arial, Helvetica, sans-serif;font-size:16px; font-weight:bold; color:#FF0000;
+  text-align: left;
+}
+.alerta_min{font-family:Arial, Helvetica, sans-serif;font-size:10px; font-weight:bold; color:#FF0000;
+  }
+
+.paragrafo{font-family:Arial, Helvetica, sans-serif;font-size:10px; font-weight:bold; color:#385978;
+  text-align: left;
+  height: 16px;
+}
+
+.input_login{
+width:120px;
+border:solid #006699 1px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+  }
+
+.textbox{
+border:solid #006699 1px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+  margin-right: 0px;
+  text-align: left;
+}
+
+.textbox_numerico{
+border:solid #006699 1px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+text-align:right; 
+}
+
+.textbox_desabilitado{
+border:solid #CCCCCC 1px;
+background-color:#D6E4FC;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+
+.textbox_desabilitado_numerico{
+border:solid #CCCCCC 1px;
+background-color:#D6E4FC;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+text-align:right;
+}
+
+.tabela {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 11px;
+	color: #385978;
+  width: 650px;
+  height: 36px;
+}
+
+.input_peq{
+width:100px;
+border:solid #006699 1px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+  height: 18px;
+}
+.input_med{
+width:200px;
+border:solid #006699 1px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+.input_gdr{
+width:300px;
+border:solid #006699 1px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+
+.input_peq_numerico{
+width:100px;
+border:solid #006699 1px;
+font-family:Verdana, Helvetica, sans-serif;
+font-size:11px;
+text-align:right; 
+}
+.input_med_numerico{
+width:200px;
+border:solid #006699 1px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+text-align:right; 
+}
+.input_gdr_numerico{
+width:300px;
+border:solid #006699 1px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+text-align:right; 
+}
+
+.input_textarea_peq{
+width:100px;
+border:solid #006699 1px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+.input_textarea_gdr{
+width:300px;
+border:solid #006699 1px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+.input_textarea_med{
+width:200px;
+border:solid #006699 1px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+.combo_box_peq{
+width:100px;
+background-color:#D6E4FC;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+.combo_box_med{
+width:200px;
+background-color:#D6E4FC;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+.combo_box_gdr{
+width:300px;
+background-color:#D6E4FC;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+.dropdownlist{
+background-color:#D6E4FC;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+.label{
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+  text-align: left;
+}
+.fieldset{
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+width:640px;
+}
+td{
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+  text-align: left;
+}
+p.titulo{
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+font-weight:bold;
+color:#006699;
+}
+.titulo2{
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px; 
+font-weight:bold; 
+color:#006699;
+}
+#header{width:780px; margin:0 auto; background-image:url(../img/header_index.jpg); height:149px;}
+
+#menu{width:774px; clear:both; background-color:#fff; border-left:3px #dfdfdf solid; border-right:3px #dfdfdf solid; margin:0 auto; height:35px;}
+
+#login{width:400px; height:348px; 
+margin-top:-20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+#box_conteudo{width:774px; clear:both; margin:0 auto; border-left:3px #dfdfdf solid; min-height:450px; border-right:3px #dfdfdf solid; background-color:#fff;}
+
+#footer{width:780px; margin:0 auto; background-image:url('../img/footer.gif'); 
+height:47px;
+}
+
+#footer_txt{float:left; width:580px; height:25px; margin-top:8px; margin-left:25px; font-family:Arial, Helvetica, sans-serif; font-size:10px;}
+
+#perfil{float:right; width:120px; margin-right:-20px; margin-top:20px; height:20px; font-family:Arial, Helvetica, sans-serif; font-size:9px;}
+
+#perfil_{float:right; width:140px; margin-right:35px; margin-top:20px; height:20px; font-family:Arial, Helvetica, sans-serif; font-size:9px;}

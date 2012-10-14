@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+
+  <siteMapNode url="principal.aspx" title="Home"  description="Página Principal">
+    <siteMapNode url="" title="Cadastros"  description="Cadastros gerais">
+      <siteMapNode url="" title="Tabelas"  description="Tabelas gerais">
+        <siteMapNode url="~/cadCentroCusto.aspx" title="Centro de Custo" description="Centro de Custo"/>
+        <siteMapNode url="~/cadFamilia.aspx" title="Família de produto" description="Agrupamento de produtos por família"/>
+        <siteMapNode url="~/cadProduto.aspx" title="Produtos" description="Peças de veículos e materiais de consumo"/>
+      </siteMapNode>
+
+      <siteMapNode url="" title="Frota" description="Cadastros relacionados a veículos">
+        <siteMapNode url="~/cadMarca.aspx" title="Marcas" description="Cadastro de Marcas de Veículos"/>
+        <siteMapNode url="~/cadModelo.aspx" title="Modelo" description="Cadastro de Modelos de Veículos"/>
+        <siteMapNode url="~/cadVeiculo.aspx" title="Veículo" description="Cadastro dos Veículos da Empresa"/>
+      </siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode url="" title="Lançamento"  description="Lançamentos de Diversos" >
+      <siteMapNode url="lancaMulta.aspx" title="Multas" description="Infrações de Trânsito"/>
+      <siteMapNode url="lancaAbastecimento.aspx" title="Abastecimento" description="Abastecimento feitos nos veículos"/>
+    </siteMapNode>
+
+    <siteMapNode url="" title="Relatórios"  description="Diversos relatórios para visualização e tela ou na impressão" >
+      <siteMapNode url="relatorio1.aspx" title="Relatorio1" description="Relatório de número 1"/>
+      <siteMapNode url="relatorio2.aspx" title="Relatorio2" description="Relatório de número 2"/>
+      <siteMapNode url="relatorio3.aspx" title="Relatorio3" description="Relatório de número 3"/>
+    </siteMapNode>
+
+    <siteMapNode url="sair.aspx" title="Sair"  description="Sair da aplicação"/>
+  </siteMapNode>
+
+</siteMap>
+

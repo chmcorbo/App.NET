@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WsCFuelCorbo", "WsCFuelCorbo\WsCFuelCorbo.csproj", "{27DA57B7-630B-405A-AEE7-EDB51A806192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFuelCorboLib", "CFuelCorboLib\CFuelCorboLib.csproj", "{CE77E660-68EA-4F87-87F2-557F6DEAE2B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFuelCorbo", "CFuelCorbo\CFuelCorbo.csproj", "{99DFA5E0-CEB6-497B-9FBF-6D5BBCCBB18E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorboLibUtils", "..\CorboUtils\CorboLibUtils.csproj", "{4E764A64-0C32-43DD-BC05-06FA550E14DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27DA57B7-630B-405A-AEE7-EDB51A806192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27DA57B7-630B-405A-AEE7-EDB51A806192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27DA57B7-630B-405A-AEE7-EDB51A806192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27DA57B7-630B-405A-AEE7-EDB51A806192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE77E660-68EA-4F87-87F2-557F6DEAE2B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE77E660-68EA-4F87-87F2-557F6DEAE2B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE77E660-68EA-4F87-87F2-557F6DEAE2B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE77E660-68EA-4F87-87F2-557F6DEAE2B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99DFA5E0-CEB6-497B-9FBF-6D5BBCCBB18E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99DFA5E0-CEB6-497B-9FBF-6D5BBCCBB18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99DFA5E0-CEB6-497B-9FBF-6D5BBCCBB18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99DFA5E0-CEB6-497B-9FBF-6D5BBCCBB18E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E764A64-0C32-43DD-BC05-06FA550E14DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E764A64-0C32-43DD-BC05-06FA550E14DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E764A64-0C32-43DD-BC05-06FA550E14DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E764A64-0C32-43DD-BC05-06FA550E14DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

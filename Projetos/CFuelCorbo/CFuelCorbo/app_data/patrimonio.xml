@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patrimonios>
+  <Patrimonio>
+    <Codigo>012491</Codigo>
+    <Descricao />
+    <Departamento />
+    <DataColeta>2010-03-31T21:41:21-03:00</DataColeta>
+    <CentroCusto />
+    <Filial />
+    <Status>Utilizado</Status>
+    <Observacao>bricio</Observacao>
+    <Situacao>Novo</Situacao>
+  </Patrimonio>
+  <Patrimonio>
+    <Codigo>012048</Codigo>
+    <Descricao />
+    <Departamento />
+    <DataColeta>2010-03-31T21:41:35-03:00</DataColeta>
+    <CentroCusto />
+    <Filial />
+    <Status>Utilizado</Status>
+    <Observacao>mesa</Observacao>
+    <Situacao>Novo</Situacao>
+  </Patrimonio>
+</Patrimonios>
+

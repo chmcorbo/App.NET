@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cavelib", "cavelib.csproj", "{70976B95-980A-406A-810F-DD383A78F251}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70976B95-980A-406A-810F-DD383A78F251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70976B95-980A-406A-810F-DD383A78F251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70976B95-980A-406A-810F-DD383A78F251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70976B95-980A-406A-810F-DD383A78F251}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

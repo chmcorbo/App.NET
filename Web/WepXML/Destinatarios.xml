@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<destinatarios>
+  <destinatario>
+    <nome> Carlos Henrique Meireles </nome>
+    <e-mail> chmeireles@sinapseinformatica.com.br </e-mail>
+  </destinatario>
+  <destinatario>
+    <nome> Henrique Terra </nome>
+    <e-mail> chmeireles@terra.com.br </e-mail>
+  </destinatario>
+  <destinatario>
+    <nome> Henrique Hotmail </nome>
+    <e-mail> chmeireles@hotmail.com </e-mail>
+  </destinatario>
+</destinatarios>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<medias>
+  <media nome="Henrique - Músicas">
+    <artist name="liah" path="D:\Meus Documentos\Henrique - Músicas">
+      <album name="01 Liah" path="D:\Meus Documentos\Henrique - Músicas\Liah">
+        <music ord="1">
+          01 o amor é de mais.mp3
+        </music>
+        <music ord="2">
+          02 acredeitar no seu amor.mp3
+        </music>
+        <music ord="3">
+          03 Misterio e prazer.mp3
+        </music>
+        <music ord="4">
+          04 quero me perder.mp3
+        </music>
+        <music ord="5">
+          05 garotas choram mais.mp3
+        </music>
+        <music ord="6">
+          06 poesia e paixão.mp3
+        </music>
+        <music ord="7">
+          07 vale a pena sonha.mp3
+        </music>
+        <music ord="8">
+          08 eu acredito.mp3
+        </music>
+        <music ord="9">
+          09 Não Vou Duvidar.mp3
+        </music>
+        <music ord="10">
+          10 mais um dia.mp3
+        </music>
+        <music ord="11">
+          11 nóis dois.mp3
+        </music>
+        <music  ordem="12">
+          12 Vai virar amor.mp3
+        </music>
+        <music ordem="13">
+          13 ponto de interrogação.mp3
+        </music>
+        <music ordem="14">
+          14 desertos.mp3
+        </music>
+      </album>
+    </artist>
+  </media>
+</medias>

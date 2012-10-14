@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<various_media>
+  <media name="OS" description="ZBACKUP">
+    <artist name="DJavan" path="Z">
+      <album name="(2004) Vaidade" path="DJavan">
+        <music ord="1" name="01- Se Acontecer.mp3" />
+        <music ord="2" name="02- Flor do Medo.mp3" />
+        <music ord="3" name="03- Sentimento Verdadeiro.mp3" />
+        <music ord="4" name="04- Mundo Vasto.mp3" />
+        <music ord="5" name="05- Amor Algum.mp3" />
+        <music ord="6" name="06- Vaidade.mp3" />
+        <music ord="7" name="07- Dia Azul.mp3" />
+        <music ord="8" name="08- Bailarina.mp3" />
+        <music ord="9" name="09- Celeuma.mp3" />
+        <music ord="10" name="10- Estátua de Sal.mp3" />
+        <music ord="11" name="11- Tainá-Flor.mp3" />
+        <music ord="12" name="12- Dorme Sofia.mp3" />
+      </album>
+      <album name="Ao Vivo - Duplo / Disco 1" path="Ao Vivo - Duplo">
+        <music ord="1" name="01- Faltando Um Pedaço.mp3" />
+        <music ord="2" name="02- Esquinas.mp3" />
+        <music ord="3" name="03- Eu te Devoro.mp3" />
+        <music ord="4" name="04- Seduzir.mp3" />
+        <music ord="5" name="05- Se....mp3" />
+        <music ord="6" name="06- A Carta.mp3" />
+        <music ord="7" name="07- Boa Noite.mp3" />
+        <music ord="8" name="08- Sina.mp3" />
+        <music ord="9" name="09- Pétala.mp3" />
+        <music ord="10" name="10- Lilás.mp3" />
+        <music ord="11" name="11- Acelerou.mp3" />
+        <music ord="12" name="12- Um Amor Puro.mp3" />
+      </album>
+      <album name="Ao Vivo - Duplo / Disco 2" path="Ao Vivo - Duplo">
+        <music ord="1" name="01- Samurai.mp3" />
+        <music ord="2" name="02- Azul.mp3" />
+        <music ord="3" name="03- Meu Bem-Querer.mp3" />
+        <music ord="4" name="04- Nem Um Dia.mp3" />
+        <music ord="5" name="05- Álibi.mp3" />
+        <music ord="6" name="06- Cigano.mp3" />
+        <music ord="7" name="07- Serrado.mp3" />
+        <music ord="8" name="08- Oceano.mp3" />
+        <music ord="9" name="09- Açaí.mp3" />
+        <music ord="10" name="10- Fato Consumado.mp3" />
+        <music ord="11" name="11- Flor De Lis.mp3" />
+        <music ord="12" name="12- Amar É Tudo.mp3" />
+      </album>
+    </artist>
+    <artist name="Kim Waters" path="Z">
+      <album name="In The Name Of Love (2004)" path="Kim Waters">
+        <music ord="1" name="01 - Step In The Name Of Love.mp3" />
+        <music ord="2" name="02 - Sunset.mp3" />
+        <music ord="3" name="03 - In Deep.mp3" />
+        <music ord="4" name="04 - Tell Me So.mp3" />
+        <music ord="5" name="05 - Love's Theme.mp3" />
+        <music ord="6" name="06 - All I Wanna Do Is Please You.mp3" />
+        <music ord="7" name="07 - For the Groove in You.mp3" />
+        <music ord="8" name="08 - Cross My Heart.mp3" />
+        <music ord="9" name="09 - Alone With You.mp3" />
+        <music ord="10" name="10 - The Ride 9 .mp3" />
+      </album>
+    </artist>
+  </media>
+</various_media>

@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Cave.Dominio.Abastecimento.Abastecimento">
+    <Position X="14.75" Y="9" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAQAABgAAAAAAEAAAAAAAAAEAAESAAAAAAA=</HashCode>
+      <FileName>dominio\Abastecimento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cave.Dominio.Abastecimento.Cota_extra">
+    <Position X="13.5" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAQAABAAAAAAAAAAAAAAAAAEAAEQIAAAAAA=</HashCode>
+      <FileName>dominio\Cota_extra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cave.Dominio.Abastecimento.Cota_mensal">
+    <Position X="11.25" Y="6" Width="2" />
+    <InheritanceLine Type="Solucon.Dominio.ClasseBase" ManuallyRouted="true">
+      <Path>
+        <Point X="9.375" Y="2.881" />
+        <Point X="9.375" Y="3.404" />
+        <Point X="12.25" Y="3.404" />
+        <Point X="12.25" Y="6" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAQAABABAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>dominio\Cota_mensal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cave.Dominio.Financeiro.Fornecedor">
+    <Position X="9.75" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAgAAAAAAAAAAAAAAAAAAAAAAAgIAAAAAAAAAA=</HashCode>
+      <FileName>dominio\Fornecedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cave.Dominio.Financeiro.Frentista">
+    <Position X="0.5" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgA=</HashCode>
+      <FileName>dominio\Frentista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cave.Dominio.RH.Funcao">
+    <Position X="3.75" Y="7.5" Width="1.5" />
+    <InheritanceLine Type="Solucon.Dominio.ClasseBase" ManuallyRouted="true">
+      <Path>
+        <Point X="9.375" Y="2.881" />
+        <Point X="9.375" Y="3.404" />
+        <Point X="5.25" Y="3.404" />
+        <Point X="5.25" Y="7.125" />
+        <Point X="4.5" Y="7.125" />
+        <Point X="4.5" Y="7.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>dominio\Funcao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cave.Dominio.RH.Funcionario">
+    <Position X="3" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAAEAAAAEAAAAAAAAAAAAAIAAAAAAAAAAAACCAEAIAQ=</HashCode>
+      <FileName>dominio\Funcionario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cave.Dominio.Veiculo.Marca">
+    <Position X="6" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>dominio\Marca.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cave.Dominio.Veiculo.Modelo">
+    <Position X="8.25" Y="8" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAADAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>dominio\Modelo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cave.Dominio.Veiculo.Veiculo">
+    <Position X="5.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAQAQBAEABAAgICAAGFAAAgAAAgAAAAAAAA=</HashCode>
+      <FileName>dominio\Veiculo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cave.Dominio.Seguranca.Perfil_Usuario">
+    <Position X="0.5" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAIAAQAAAAAAAAAAAAEAEAAAA=</HashCode>
+      <FileName>dominio\Perfil_Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cave.Dominio.Seguranca.Usuario">
+    <Position X="0.5" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAABAAAAABFAAAAAACAIAAAAAAAQIAEAAAA=</HashCode>
+      <FileName>dominio\Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cave.DAO.Abastecimento.DAOAbastecimento">
+    <Position X="14.5" Y="15.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAACAAAAAAFAAAABAAAAAQAAAAAAABABAAAAAA=</HashCode>
+      <FileName>dao\DAOAbastecimento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cave.DAO.Abastecimento.DAOCota_extra">
+    <Position X="13.25" Y="21.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAFAAAABAAAAAQAAAAAAABAAgAAAAA=</HashCode>
+      <FileName>dao\DAOCota_extra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cave.DAO.Abastecimento.DAOCota_mensal">
+    <Position X="12" Y="18.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAACAAAAAAFAAAABAAAAAQAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>dao\DAOCota_mensal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cave.DAO.Financeiro.DAOFornecedor">
+    <Position X="10.5" Y="15.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAABFAAAABAAAAAQAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>dao\DAOFornecedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cave.DAO.Financeiro.DAOFrentista">
+    <Position X="1.25" Y="19" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAFAAAIBAAAIAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>dao\DAOFrentista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cave.DAO.RH.DAOFuncao">
+    <Position X="9.25" Y="19.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAABFAAAABAAAAAQAABAAAABAAAAAAAA=</HashCode>
+      <FileName>dao\DAOFuncao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cave.DAO.RH.DAOFuncionario">
+    <Position X="8" Y="15.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAACAAAAAAFAAIABAAAAAYAABAAAABAAAAAAAA=</HashCode>
+      <FileName>dao\DAOFuncionario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cave.DAO.Veiculo.DAOMarca">
+    <Position X="4" Y="19" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAACAAAAABFAAAABAAAAAQAACAAAABAAAAAAAA=</HashCode>
+      <FileName>dao\DAOMarca.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cave.DAO.Veiculo.DAOModelo">
+    <Position X="6.5" Y="19" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAACAAAAABFAAAABAAAAAQAACAAAABAAAAAAAA=</HashCode>
+      <FileName>dao\DAOModelo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cave.DAO.Veiculo.DAOVeiculo">
+    <Position X="3.75" Y="15.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAECAAACAAAAABFQQAABAAAAAQIAAAAAABAAAAAAAA=</HashCode>
+      <FileName>dao\DAOVeiculo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cave.DAO.Seguranca.DAOPerfilUsuario">
+    <Position X="1.75" Y="21.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABFAAAABAAAAAQAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>dao\DAOPerfilUsuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cave.DAO.Seguranca.DAOUsuario">
+    <Position X="0.75" Y="15.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEACAAACAAAAABFAQAABAAAAAQAAAIAAABAAAAAIAA=</HashCode>
+      <FileName>dao\DAOUsuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Solucon.DAO.DAOBase">
+    <Position X="8.5" Y="12.75" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Solucon.Dominio.ClasseBase">
+    <Position X="8.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Tahoma" Size="8.4" />
+</ClassDiagram>

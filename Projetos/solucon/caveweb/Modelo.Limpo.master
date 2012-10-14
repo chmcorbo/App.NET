@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" %>
+<%@ Register src="menu.ascx" tagname="menu" tagprefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<script runat="server">
+  protected void Page_Load(object sender, EventArgs e)
+  {
+    lbNome.Text = ((Cave.Dominio.Seguranca.Usuario)Session["USUARIO_LOGADO"]).Nome;
+    lbPerfil.Text = ((Cave.Dominio.Seguranca.Usuario)Session["USUARIO_LOGADO"]).perfil.Nome;
+  }
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="MasterLimpo" runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CAVE - Controle de Abastecimento de Veículos</title>
+<link href="css/estilo.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        #form1
+        {
+            text-align: left;
+        }
+    </style>
+  </head>
+
+<body style="background-color:#99bed6;">
+  <form id="frmMasterLimpo" runat="server">
+  <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+  
+<div style="width:780px; margin:0 auto; background-image:url(img/header.jpg); height:149px;">
+
+<div style="float:right; width:100px; margin-right:5px; margin-top:7px; height:38px; font-family:Arial, Helvetica, sans-serif; font-size:9px;">
+  <asp:Label ID="lbPerfil" runat="server" Text="Label"></asp:Label>
+</div>
+<div style="float:right; width:135px; margin-right:35px; margin-top:7px; height:38px; font-family:Arial, Helvetica, sans-serif; font-size:9px;">
+  <asp:Label ID="lbNome" runat="server" Text="Label"></asp:Label>
+</div>
+
+</div>
+
+      <table style="width:774px; clear:both; background-color:#fff; border-left:3px #dfdfdf solid; border-right:3px #dfdfdf solid; margin:0 auto; height:35px;">
+        <tr>
+          <td>
+            <img alt="" src="img/bar.gif" style="width: 767px" /></td>
+        </tr>
+      </table>
+
+
+<div style="width:774px; clear:both; margin:0 auto; border-left:3px #dfdfdf solid; min-height:450px; border-right:3px #dfdfdf solid; background-color:#fff; height: 371px; text-align: left;">
+  
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+      
+      <br />
+      
+     
+    </asp:ContentPlaceHolder>
+  
+</div>
+
+<div style="width:780px; margin:0 auto; background-image:url(img/footer.gif); height:49px;">
+<div style="float:left; width:580px; height:25px; margin-top:8px; margin-left:25px; font-family:Arial, Helvetica, sans-serif; font-size:10px;">
+  © 2009 - SOLUCON - Soluções, Consultoria e desenvolvimento de Sistemas. Contato:  href="mailto:suporte@solucon.com.br">solucon@solucon.com.br
+  </a>
+  </div>
+</div>
+
+  </form>
+
+</body>
+</html>

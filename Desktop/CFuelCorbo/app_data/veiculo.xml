@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<veiculos>
+  <veiculo id="1">
+    <placa>LNP-0037</placa>
+    <marca>VW</marca>
+    <modelo>GOL</modelo>
+    <cor>BEGE</cor>
+  </veiculo>
+  <veiculo id="2">
+    <placa>LKH-7691</placa>
+    <marca>GM</marca>
+    <modelo>CLASSIC SPIRIT</modelo>
+    <cor>CINZA BLUÊ</cor>
+  </veiculo>
+  <veiculo id="3">
+    <placa>KYV-2206</placa>
+    <marca>GM</marca>
+    <modelo>CORSA</modelo>
+    <cor>VINHO</cor>
+  </veiculo>
+  <veiculo id="4">
+    <placa>ABW-7988</placa>
+    <marca>VW</marca>
+    <modelo>GOL</modelo>
+    <cor>PRATA</cor>
+  </veiculo>
+  <veiculo id="5">
+    <placa>ANE-1322</placa>
+    <marca>GM</marca>
+    <modelo>CELTA</modelo>
+    <cor>PRATA</cor>
+  </veiculo>
+</veiculos>

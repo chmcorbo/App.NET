@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<abastecimentos>
+  <abastecimento id="1">
+    <data_abastec></data_abastec>
+    <hora_abastec></hora_abastec>
+    <id_combustivel></id_combustivel>
+    <km></km>
+    <litragem></litragem>
+    <km_litro></km_litro>
+    <valor_unit></valor_unit>
+    <valor_total></valor_total>
+    <id_posto></id_posto>
+    <id_veiculo></id_veiculo>
+  </abastecimento>
+</abastecimentos>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<various_media>
+  
+  <media name="evangelicos" description="evangelicos1">
+    <artist name="angelo torres" path="evangelicos">
+      <album name="comunhão" path="angelo torres">
+        <music ord="1">
+          <name> 01 Coração em Santidade.mp3 </name>
+        </music>
+        <music ord="2">
+          <name> 02 Comunhão.mp3 </name>
+        </music>
+        <music ord="3">
+          <name> 03 Incomparavel.mp3 </name>
+        </music>
+        <music ord="4">
+          <name> 04 Agnus Dei.mp3 </name>
+        </music>
+        <music ord="5">
+          <name> 05 Ana Lara.mp3 </name>
+        </music>
+        <music ord="6">
+          <name> 06 Semente.mp3 </name>
+        </music>
+        <music ord="7">
+          <name> 07 Santo,Santo,Santo.mp3 </name>
+        </music>
+        <music ord="8">
+          <name> 08 O Dia Esta Chegando.mp3 </name>
+        </music>
+        <music ord="9">
+          <name> 09 Momentos.mp3 </name>
+        </music>
+        <music ord="10">
+          <name> 10 Me alegro em ti.mp3 </name>
+        </music>
+      </album>
+    </artist>
+  </media>
+         
+  
+</various_media>

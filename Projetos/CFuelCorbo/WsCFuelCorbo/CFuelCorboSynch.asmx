@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="CFuelCorboSynch.asmx.cs" Class="WsCFuelCorbo.DataSynch" %>

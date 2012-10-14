@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.sinapseinformatica.com.br/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.sinapseinformatica.com.br/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.sinapseinformatica.com.br/">
+      <s:element name="StringConexao">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="senha_master" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StringConexaoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StringConexaoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Sobre">
+        <s:complexType />
+      </s:element>
+      <s:element name="SobreResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SobreResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegistroAniel">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="senha_master" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="id_licenca_cliente" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegistroAnielResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RegistroAnielResult" type="tns:HistAtualizReg" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="HistAtualizReg">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:ClasseBase">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="Licenca_cliente" type="tns:Licenca_cliente" />
+              <s:element minOccurs="1" maxOccurs="1" name="Data_envio" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="Qtde_licenca" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="Liberado_ate" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="Versao_aniel" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ClasseBase" abstract="true" />
+      <s:complexType name="Cliente">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:ClasseBase">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="Cod_cliente" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="Fantasia" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Razao_social" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Situacao" type="s:int" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="Licenca_cliente">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:ClasseBase">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="Cliente" type="tns:Cliente" />
+              <s:element minOccurs="1" maxOccurs="1" name="Data_venda" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="Inicio_suporte" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="Data_criacao_bd" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="Situacao" type="s:int" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="AtualizHistRegAniel">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="senha_master" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="id_atualiz_reg" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="usuario_aniel" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AtualizHistRegAnielResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AtualizHistRegAnielResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Cons_Equipe">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="senha_master" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Cod_Equipe" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Cons_EquipeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Cons_EquipeResult" type="tns:Equipe" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Equipe">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:ClasseBase">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="Cod_Equipe" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Nome" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Perfil" type="tns:Perfil_Equipe" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="Perfil_Equipe">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:ClasseBase">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="Cod_Perfil_Equipe" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="Nome" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="Cons_Produto">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="senha_master" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Codmat" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Cons_ProdutoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Cons_ProdutoResult" type="tns:Produto" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Produto">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:ClasseBase">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="Codmat" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Descricao" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Unid" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="StringConexaoSoapIn">
+    <wsdl:part name="parameters" element="tns:StringConexao" />
+  </wsdl:message>
+  <wsdl:message name="StringConexaoSoapOut">
+    <wsdl:part name="parameters" element="tns:StringConexaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="SobreSoapIn">
+    <wsdl:part name="parameters" element="tns:Sobre" />
+  </wsdl:message>
+  <wsdl:message name="SobreSoapOut">
+    <wsdl:part name="parameters" element="tns:SobreResponse" />
+  </wsdl:message>
+  <wsdl:message name="RegistroAnielSoapIn">
+    <wsdl:part name="parameters" element="tns:RegistroAniel" />
+  </wsdl:message>
+  <wsdl:message name="RegistroAnielSoapOut">
+    <wsdl:part name="parameters" element="tns:RegistroAnielResponse" />
+  </wsdl:message>
+  <wsdl:message name="AtualizHistRegAnielSoapIn">
+    <wsdl:part name="parameters" element="tns:AtualizHistRegAniel" />
+  </wsdl:message>
+  <wsdl:message name="AtualizHistRegAnielSoapOut">
+    <wsdl:part name="parameters" element="tns:AtualizHistRegAnielResponse" />
+  </wsdl:message>
+  <wsdl:message name="Cons_EquipeSoapIn">
+    <wsdl:part name="parameters" element="tns:Cons_Equipe" />
+  </wsdl:message>
+  <wsdl:message name="Cons_EquipeSoapOut">
+    <wsdl:part name="parameters" element="tns:Cons_EquipeResponse" />
+  </wsdl:message>
+  <wsdl:message name="Cons_ProdutoSoapIn">
+    <wsdl:part name="parameters" element="tns:Cons_Produto" />
+  </wsdl:message>
+  <wsdl:message name="Cons_ProdutoSoapOut">
+    <wsdl:part name="parameters" element="tns:Cons_ProdutoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WsEstarSoap">
+    <wsdl:operation name="StringConexao">
+      <wsdl:input message="tns:StringConexaoSoapIn" />
+      <wsdl:output message="tns:StringConexaoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Sobre">
+      <wsdl:input message="tns:SobreSoapIn" />
+      <wsdl:output message="tns:SobreSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RegistroAniel">
+      <wsdl:input message="tns:RegistroAnielSoapIn" />
+      <wsdl:output message="tns:RegistroAnielSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AtualizHistRegAniel">
+      <wsdl:input message="tns:AtualizHistRegAnielSoapIn" />
+      <wsdl:output message="tns:AtualizHistRegAnielSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Cons_Equipe">
+      <wsdl:input message="tns:Cons_EquipeSoapIn" />
+      <wsdl:output message="tns:Cons_EquipeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Cons_Produto">
+      <wsdl:input message="tns:Cons_ProdutoSoapIn" />
+      <wsdl:output message="tns:Cons_ProdutoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WsEstarSoap" type="tns:WsEstarSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="StringConexao">
+      <soap:operation soapAction="http://www.sinapseinformatica.com.br/StringConexao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Sobre">
+      <soap:operation soapAction="http://www.sinapseinformatica.com.br/Sobre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegistroAniel">
+      <soap:operation soapAction="http://www.sinapseinformatica.com.br/RegistroAniel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AtualizHistRegAniel">
+      <soap:operation soapAction="http://www.sinapseinformatica.com.br/AtualizHistRegAniel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Cons_Equipe">
+      <soap:operation soapAction="http://www.sinapseinformatica.com.br/Cons_Equipe" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Cons_Produto">
+      <soap:operation soapAction="http://www.sinapseinformatica.com.br/Cons_Produto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WsEstarSoap12" type="tns:WsEstarSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="StringConexao">
+      <soap12:operation soapAction="http://www.sinapseinformatica.com.br/StringConexao" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Sobre">
+      <soap12:operation soapAction="http://www.sinapseinformatica.com.br/Sobre" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegistroAniel">
+      <soap12:operation soapAction="http://www.sinapseinformatica.com.br/RegistroAniel" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AtualizHistRegAniel">
+      <soap12:operation soapAction="http://www.sinapseinformatica.com.br/AtualizHistRegAniel" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Cons_Equipe">
+      <soap12:operation soapAction="http://www.sinapseinformatica.com.br/Cons_Equipe" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Cons_Produto">
+      <soap12:operation soapAction="http://www.sinapseinformatica.com.br/Cons_Produto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WsEstar">
+    <wsdl:port name="WsEstarSoap" binding="tns:WsEstarSoap">
+      <soap:address location="http://192.168.0.189/WsSinapse/WsEstar.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WsEstarSoap12" binding="tns:WsEstarSoap12">
+      <soap12:address location="http://192.168.0.189/WsSinapse/WsEstar.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

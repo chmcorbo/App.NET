@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{72CBF82D-693F-4C84-92CA-751E0D55D84F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>cavelib</RootNamespace>
+    <AssemblyName>cavelib</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="soluconlib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\soluconlib\bin\Debug\soluconlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dao\DAOAbastecimento.cs" />
+    <Compile Include="dao\DAOCota_extra.cs" />
+    <Compile Include="dao\DAOCota_mensal.cs" />
+    <Compile Include="dao\DAOFornecedor.cs" />
+    <Compile Include="dao\DAOFrentista.cs" />
+    <Compile Include="dao\DAOFuncao.cs" />
+    <Compile Include="dao\DAOFuncionario.cs" />
+    <Compile Include="dao\DAOMarca.cs" />
+    <Compile Include="dao\DAOModelo.cs" />
+    <Compile Include="dao\DAOOpcoes_menu.cs" />
+    <Compile Include="dao\DAOPerfilUsuario.cs" />
+    <Compile Include="dao\DAOCombustivel.cs" />
+    <Compile Include="dao\DAOUsuario.cs" />
+    <Compile Include="dao\DAOVeiculo.cs" />
+    <Compile Include="dominio\Abastecimento.cs" />
+    <Compile Include="dominio\Cota_extra.cs" />
+    <Compile Include="dominio\Cota_mensal.cs" />
+    <Compile Include="dominio\Fornecedor.cs" />
+    <Compile Include="dominio\Frentista.cs" />
+    <Compile Include="dominio\Funcao.cs" />
+    <Compile Include="dominio\Funcionario.cs" />
+    <Compile Include="dominio\Marca.cs" />
+    <Compile Include="dominio\Modelo.cs" />
+    <Compile Include="dominio\Opcoes_menu.cs" />
+    <Compile Include="dominio\Opcoes_Menu_Perfil.cs" />
+    <Compile Include="dominio\Perfil_Usuario.cs" />
+    <Compile Include="dominio\ProxyFuncCotaMens.cs" />
+    <Compile Include="dominio\Combustivel.cs" />
+    <Compile Include="dominio\Usuario.cs" />
+    <Compile Include="dominio\Veiculo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Classes_Dominio.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

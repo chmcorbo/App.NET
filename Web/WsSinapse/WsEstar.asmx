@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="WsEstar.asmx.cs" Class="WsSinapse.WsEstar" %>

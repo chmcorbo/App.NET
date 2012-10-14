@@ -1,0 +1,98 @@
+.textopadrao {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	color: #6f6f6f;
+}
+
+.textopadraonegrito {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	color: #6f6f6f;
+	font-weight: bold;	
+}
+.textopadraovermelho {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	color:  Red;
+}
+
+.link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	color: Blue;
+}
+
+.obs {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	color: #6f6f6f;
+	font-size:XX-Small;
+	font-style:italic;
+}
+
+.subtitulo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #33a4ab;
+	font-variant: normal;
+	text-transform: uppercase;
+}
+
+.subtitulovermelho {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: Red;
+	font-variant: normal;
+	text-transform: uppercase;
+}
+
+.subtitulosemcaixa {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #33a4ab;
+	font-variant: normal;
+}
+
+.subtitulosemcaixa {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #33a4ab;
+	font-variant: normal;
+}
+
+.titulo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #33a4ab;
+	font-variant: normal;
+	text-transform: uppercase;
+}
+.textopadrao2 {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 18px;
+	color: #6f6f6f;
+}
+.box {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999999;
+	border: 1px solid #33a4ab;
+}
+.textobox {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999999;
+	background-color: #eeeded;
+}

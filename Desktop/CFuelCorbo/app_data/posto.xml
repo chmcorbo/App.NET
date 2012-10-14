@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<carteira>
+  <posto id="1">
+    <nome>EXTRA</nome>
+    <bairro>VENDA VELHA</bairro>
+    <cidade>SÃO JOÃO DE MERITI</cidade>
+    <uf>RJ</uf>
+  </posto>
+  
+  <posto id="2">
+    <nome>FORSA</nome>
+    <bairro>VILAR DOS TELES</bairro>
+    <cidade>SÃO JOÃO DE MERITI</cidade>
+    <uf>RJ</uf>
+  </posto>
+
+  <posto id="3">
+    <nome>ESSO</nome>
+    <bairro>CENTRO</bairro>
+    <cidade>SÃO JOÃO DE MERITI</cidade>
+    <uf>RJ</uf>
+  </posto>
+
+</carteira>

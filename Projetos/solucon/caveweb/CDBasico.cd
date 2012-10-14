@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="CaveWeb.cadUsuario" BaseTypeListCollapsed="true">
+    <Position X="5" Y="2.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>ggATAAECEEiAAEAAEAAIAAAAAAAIAYQCAAAAAQYAAkA=</HashCode>
+      <FileName>cadUsuario.aspx.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CaveWeb.CadVeiculo">
+    <Position X="5" Y="7.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AgADAAGCEEgoAFAAEkAAAAAAUAAIQaAABFABAgYAAiE=</HashCode>
+      <FileName>cadVeiculo.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CaveWeb.pesqUsuario">
+    <Position X="0.5" Y="2.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>ABAgBAEAEAAAABAAJgCAAAEAEAAYAAAAAEABCAIAACA=</HashCode>
+      <FileName>pesqVeiculo.aspx.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CaveWeb.pesqVeiculo">
+    <Position X="0.5" Y="7.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>ABAgBAEAEAABABAAJgCAAAEAEAAYAAAAAEABCAIAACA=</HashCode>
+      <FileName>pesqVeiculo2.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Solucon.RadControls.RadFormat">
+    <Position X="0.5" Y="0.5" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RadFormat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CaveWeb.IPaginaCadPadrao">
+    <Position X="6.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAIAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPaginaPadrao.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CaveWeb.IPaginaPesqPadrao">
+    <Position X="8.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPaginaPadrao.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.4" />
+</ClassDiagram>

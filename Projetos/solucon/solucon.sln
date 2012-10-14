@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soluconlib", "soluconlib\soluconlib.csproj", "{4559BD99-4FE3-489D-8BE3-92C207837072}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cavelib", "cavelib\cavelib.csproj", "{72CBF82D-693F-4C84-92CA-751E0D55D84F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaveWeb", "caveweb\CaveWeb.csproj", "{DDBA26C4-2643-433A-9DF3-E2BE45F3CDB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4559BD99-4FE3-489D-8BE3-92C207837072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4559BD99-4FE3-489D-8BE3-92C207837072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4559BD99-4FE3-489D-8BE3-92C207837072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4559BD99-4FE3-489D-8BE3-92C207837072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72CBF82D-693F-4C84-92CA-751E0D55D84F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72CBF82D-693F-4C84-92CA-751E0D55D84F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72CBF82D-693F-4C84-92CA-751E0D55D84F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72CBF82D-693F-4C84-92CA-751E0D55D84F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDBA26C4-2643-433A-9DF3-E2BE45F3CDB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDBA26C4-2643-433A-9DF3-E2BE45F3CDB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDBA26C4-2643-433A-9DF3-E2BE45F3CDB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDBA26C4-2643-433A-9DF3-E2BE45F3CDB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+<publishData>
+  <publishTarget publishUrl="ftp://ftp.sinapseinformatica.kinghost.net/www/webservice/">
+    <file relUrl="bin/WsSinapse.dll" publishTime="04/04/2009 22:07:53" />
+    <file relUrl="bin/WsSinapse.pdb" publishTime="04/04/2009 22:07:52" />
+    <file relUrl="WsEstar.asmx" publishTime="01/05/2009 18:16:49" />
+    <file relUrl="Web.config" publishTime="04/04/2009 18:58:32" />
+  </publishTarget>
+  <publishTarget publishUrl="ftp://ftp.sinapseinformatica.kinghost.net/www/">
+    <file relUrl="bin/WsSinapse.dll" publishTime="04/04/2009 13:05:03" />
+    <file relUrl="bin/WsSinapse.pdb" publishTime="04/04/2009 13:05:03" />
+    <file relUrl="WsEstar.asmx" publishTime="01/05/2009 18:16:49" />
+    <file relUrl="Web.config" publishTime="04/04/2009 18:58:32" />
+  </publishTarget>
+</publishData>
